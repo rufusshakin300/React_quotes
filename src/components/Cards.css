@@ -1,0 +1,26 @@
+
+
+.container {
+    min-height: 90vh;
+    display: flex;  /* it works with grid too  */
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 10px;
+}
+
+.btn.tweet{
+    border-radius: 20px;
+    background-color: #1da1f2;
+    color: white;
+}
+.btn.tweet:hover{
+    background-color: #0077b5;
+    color: white;
+}
+.btn-success.round{
+    border-radius: 20px;
+
+}
